@@ -1,0 +1,57 @@
+body {
+  background-image: linear-gradient(#8D94E7,white);
+  text-align: center;
+  font-family: verdana;
+  font-size: 15px;
+}
+
+img {
+  border: none;
+  border-radius: 10px;
+  height: 250px;
+  width: 360px;
+}
+
+.square {
+  background-image: linear-gradient(white,skyblue);
+  color: black;
+  border-radius: 10px;
+
+}
+
+.pic {
+  height: 50px;
+  width: 50px;
+  border: 1px  white;
+  padding: 5px;
+}
+
+
+
+.a-square {
+  display: flex;
+  gap: 5px;
+  border: 2px solid white;
+  padding: 5px;
+  border: contain;
+  border-radius: 20px;
+}
+
+.p1{
+  font-family:monospace;
+  font-size:30px;
+  overflow: hidden;
+  white-space: wrap;
+  animation: fade-in 5s infinite
+}
+@keyframes fade-in {
+  0% {
+    opacity:0%;
+ }
+ 50%{
+   opacity:50%;
+ }
+ 100%{
+   opacity:100%;
+ }
+}
